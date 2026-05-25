@@ -478,6 +478,21 @@ body.light-theme .placeholder-portrait {
 body.light-theme .placeholder-portrait i {
   filter: drop-shadow(0 0 10px rgba(127, 0, 255, 0.2));
 }
+.portrait-wrapper .portrait-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 1;
+}
+.portrait-wrapper.portrait-frame {
+  background: rgba(0, 0, 0, 0.08);
+}
+.portrait-wrapper.portrait-frame .hologram-ring {
+  z-index: 2;
+}
 .hologram-ring {
   position: absolute;
   border-radius: 50%;

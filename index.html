@@ -36,7 +36,7 @@
       <a href="#hobbies" class="nav-link">Hobbies</a>
       <a href="#certificates" class="nav-link">Certificates</a>
       <a href="#contact" class="nav-link">Contact</a>
-      <a href="file:///C:/Users/Admin/Downloads/Hemanth%20Havalad-1DT22IS062.pdf" target="_blank" class="btn resume">Resume</a>
+      <a href="./resume.pdf" target="_blank" rel="noopener noreferrer" class="btn resume">Resume</a>
     </nav>
   </header>
 
@@ -93,15 +93,17 @@
           <div class="cta-row">
             <a href="#projects" class="btn primary">View Projects</a>
             <a href="#contact" class="btn outline">Get in touch</a>
+            <a href="./resume.pdf" download="Hemanth Havalad--1DT22IS062.pdf" class="btn outline">Download Resume</a>
           </div>
         </div>
 
         <div class="hero-right">
-          <!-- Portrait placeholder: CSS styling renders a premium hologram/glowing ring avatar card -->
-          <div class="portrait-wrapper placeholder-portrait">
+          <!-- Portrait frame with a profile image and hologram rings -->
+          <div class="portrait-wrapper portrait-frame">
+            <img src="./my-new-avatar.png
+" alt="Profile photo" class="portrait-photo" />
             <div class="hologram-ring ring-1"></div>
             <div class="hologram-ring ring-2"></div>
-            <i class="fa-solid fa-user"></i>
           </div>
         </div>
       </div>
@@ -131,16 +133,15 @@
           </div>
 
           <div class="about-image">
-            <!-- Portrait placeholder: CSS styling renders a premium hologram/glowing ring avatar card -->
             <div class="portrait-wrapper about-portrait align-top placeholder-portrait">
               <div class="hologram-ring ring-1"></div>
               <div class="hologram-ring ring-2"></div>
-              <i class="fa-solid fa-user-tie"></i>
+    
+              <img src="./profile%202.jpeg" alt="About Me Profile photo" class="portrait-photo" />
+    
             </div>
           </div>
-        </div>
-      </div>
-    </section>
+        
 
     <!-- SKILLS -->
     <section id="skills" class="panel skills-panel">
@@ -346,29 +347,10 @@
             </ul>
           </div>
 
-          <div class="contact-form card">
-            <h3>Send a message</h3>
-            <!-- Add id="contactForm" so script.js demo handler captures submissions -->
-            <form action="https://formsubmit.co/hemanthhavalad14@gmail.com" method="POST" class="contact-form" id="contactForm">
-              
-              <!-- disable captcha -->
-              <input type="hidden" name="_captcha" value="false">
-
-              <!-- email subject -->
-              <input type="hidden" name="_subject" value="New message from your portfolio website">
-
-              <input type="text" name="name" placeholder="Your name" required>
-              <input type="email" name="email" placeholder="Email" required>
-              <textarea name="message" placeholder="Message" rows="5" required></textarea>
-
-              <button type="submit" class="btn primary">Send message</button>
-            </form>
-          </div>
-
           <div class="resume-card card">
             <h3>Resume</h3>
             <p class="muted">Download a copy of my resume.</p>
-            <a href="file:///C:/Users/Admin/Downloads/Hemanth%20Havalad-1DT22IS062.pdf" target="_blank" class="btn primary download-btn"><i class="fa-solid fa-download"></i> View Resume</a>
+            <a href="./resume.pdf" download="Hemanth Havalad--1DT22IS062.pdf" class="btn primary download-btn"><i class="fa-solid fa-download"></i> Download Resume</a>
           </div>
         </div>
       </div>
